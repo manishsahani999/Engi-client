@@ -81,8 +81,30 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	}
 .section
 {
-	visibility: hidden;
+	visibility: visible;
 	color: white;
+	text-align: justify;
+	max-width: 80%;
+	position: absolute;
+	margin-top: -6% !important;
+	margin-left: 10% !important;
+	font-size: 14px;
+}
+
+@media screen and (width: 320px)
+{
+	.section
+	{
+		margin-top: -30% !important;
+	}
+	.register_btn
+	{
+		margin-right: 40% !importan
+	}
+}
+.new_heading
+{
+	text-align: center;
 }
 .register_btn
 {
@@ -90,9 +112,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	border: 1.5px solid white;
 	padding: 5px 25px 5px 25px;
 	border-radius: 35px;
-	margin-left: 36%;
-	margin-top : 30% !important;
+    margin-left: 36% !important;
+    margin-top:80% !important;
+
 	position: absolute;
+
 	
 }
 .register_btn:hover
@@ -508,21 +532,33 @@ main {
 	font-size: 0.95rem;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (min-width: 768px)
 {
+	.register_btn
+	{
+		margin-left: 43% !important;
+		position: absolute;
+		margin-top: 60% !important;
+	}
+	.nav_logo
+	{
+		margin-top: 3% !important;
+	}
 	.section
 	{
-		visibility: visible;
-		margin-top: -120%;
-		font-size: 10px;
-		text-align: center;
-		max-width: 80%;
-		margin-left: 8%;
-
+		margin-top: 10% !important;
 	}
-	.section:hover
+}
+
+@media screen and (width: 1024px)
+{
+	.foot
 	{
-		color: white;
+		margin-top: 128% !important;
+	}
+	.nav_logo
+	{
+		margin-top: 2% !important;
 	}
 }
 
@@ -551,18 +587,12 @@ main {
 		visibility: hidden;
 	}
 } 
-@media screen and (max-width:1000px)
-	{
-		.register_btn
-		{
-			margin-bottom: -2% !important;
-		}
-	}
+
 @media screen and (min-width: 53em) {
 	body {
 		padding: 0;
 	}
-	.btns,.late,.late1
+	.btns,.late,.late1,
 	{
 		visibility: visible;
 	}
@@ -575,10 +605,14 @@ main {
 	{
 		visibility: visible;
 	}
+	.section
+	{
+		visibility: hidden;
+	}
 	.register_btn
 	{
 				visibility: hidden;
-				margin-bottom: -20%;
+				margin-bottom: 20%;
 	}
 	
 
@@ -614,7 +648,7 @@ main {
 	.nav-header {
 		grid-area: header;
 		padding: 0;
-		margin-top: 0% !important;
+		margin-top: -10% !important;
 		margin-left: -1% !important;
 		justify-content: start;
 	}
