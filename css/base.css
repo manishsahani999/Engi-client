@@ -19,29 +19,34 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 .foot
 {
-     margin-top: 22%;
+     margin-top: 45%;
+     margin-left: 3%;
+     position: absolute;
+     width: 100%;
 }
 .left
 {
 	float: left;
-	margin-left: 4%;
+
 
 }
 .right
 {
-	float: right;
-	margin-top: 2% !important;
-	margin-right: -97% !important;
+	text-align: right;
+    margin-left: 83% !important;
+	position: absolute;
 }
 
 .btns
 {
 	visibility: hidden;
 	color: white;
-	margin-top: 38%;
+	margin-top: 34%;
 	font-size: 1.7rem;
 	font-style: bold;
-	margin-left: -2%;	
+	margin-left: 55%;	
+	width: 100%;
+	position: absolute;
 
 }
 .late
@@ -86,7 +91,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	padding: 5px 25px 5px 25px;
 	border-radius: 35px;
 	margin-left: 36%;
-	position: absoolute;
+	margin-top : 30% !important;
+	position: absolute;
+	
 }
 .register_btn:hover
 {
@@ -94,11 +101,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 .lol
 {
-	margin-top: 10% !important;
+	margin-top: 17.6% !important;
 	line-height: 35px;
 	visibility: visible;
-	margin-left: -2% !important;
 	transition: 0.6s;
+	position: absolute;
 }
 .lol1
 {
@@ -270,9 +277,8 @@ main {
 	position: relative;
 	z-index: 100;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	justify-items: center;
+	margin-top: -18% !important;
+	margin-left: 2% !important;
 	align-self: start;
 }
 
@@ -608,6 +614,8 @@ main {
 	.nav-header {
 		grid-area: header;
 		padding: 0;
+		margin-top: 0% !important;
+		margin-left: -1% !important;
 		justify-content: start;
 	}
 	
