@@ -155,9 +155,7 @@
     // Preload images.
     imagesLoaded(document.querySelector('.background'), {background: true}, () => document.body.classList.remove('loading'));
     
-    // extra stuff..
-    
-    // From http://www.quirksmode.org/js/events_properties.html#position
+   
     // Get the mouse position.
 	const getMousePos = (e) => {
         let posx = 0;
