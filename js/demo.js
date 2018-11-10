@@ -260,5 +260,6 @@
 
     let allowTilt = true;
     const tilt = new TiltFx();
+}
 
     

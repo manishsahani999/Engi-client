@@ -334,7 +334,7 @@ main {
 	font-family: "Acme", sans-serif;
 	font-size: 12vw;
 	font-weight: normal;
-	mix-blend-mode: screen;
+	mix-blend-mode:screen;
 	line-height: 0.8;
 	font-weight: 700;
 	text-transform: uppercase;
