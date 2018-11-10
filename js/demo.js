@@ -261,11 +261,4 @@
     let allowTilt = true;
     const tilt = new TiltFx();
 
-    // Hovering the github link zooms in the main image.
-    const githubEl =  document.querySelector('.github');
-    githubEl.addEventListener('mouseenter', () => {
-        allowTilt = false;
-        tilt.zoom()
-    });
-    githubEl.addEventListener('mouseleave', () => allowTilt = true);
-}
+    
