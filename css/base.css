@@ -555,6 +555,8 @@ main {
 	.foot
 	{
 		margin-top: 128% !important;
+		transition: 0s;
+
 	}
 	.nav_logo
 	{
@@ -567,7 +569,7 @@ main {
 	.lol,.foot
 	{
 		visibility: hidden;
-		transition: 0.6s;
+		transition: 0s;
 	}
 	.lol1
 	{
