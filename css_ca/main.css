@@ -761,10 +761,11 @@ textarea.input100 {
   color: #FFFFFF;
   font-family: "europa", sans-serif;
   font-weight: 700;
+  mix-blend-mode: color-dodge !important;
   font-size: 2.3rem;
  /* background-color: #E55D87;*/
   line-height: 1.565;
-      margin: 20px 250px 0px 250px;
+      margin: 100px 250px 0px 250px;
 
   text-transform: uppercase;
   letter-spacing: .3rem;

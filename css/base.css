@@ -137,9 +137,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	float: right;
 	list-style: none;
 	margin-left: 88%!important;
-    margin-top: 18% !important;
+    margin-top: 17.4% !important;
 	text-align: right;
 	margin-bottom: 40%;
+	line-height: 35px;
 	line-height:40px;
 	position: absolute;
 }
@@ -147,6 +148,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 {
 	font-size: 1.2rem;
 	z-index: 199;
+	line-height: 35px;
 	cursor: default;;
 }
 
