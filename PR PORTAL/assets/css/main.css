@@ -45,6 +45,14 @@ ol, ul {
 	margin-left: 30%;
 
 }
+.home_return
+{
+	-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
 
 h2
 {
@@ -3406,9 +3414,10 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-			font-size: 4.05em;
+			font-size: 3.05em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			margin-left: 2% !important;
 			margin-top: -10% !important;
 
 		}
@@ -3436,6 +3445,7 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
+			margin-left: 2% !important;
 
 		}
 
